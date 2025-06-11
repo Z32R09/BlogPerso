@@ -8,12 +8,12 @@ permalink: /hobbies/
 
 <div class="hobby-grid">
   <div class="hobby-card">
-    <img src="/assets/images/Twisted.jpg" alt="Zelda">
     <h3>Twisted Metal 2</h3>
+    <img src="/assets/images/Twisted.jpg" alt="Twisted">
   </div>
   <div class="hobby-card">
-    <img src="/assets/images/ZERO.png" alt="FIFA">
     <h3>mi logo</h3>
+    <img src="/assets/images/ZERO.png" alt="zero">
   </div>
 </div>
 
