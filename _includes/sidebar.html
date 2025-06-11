@@ -1,21 +1,12 @@
-<aside class="sidebar">
-    <div class="container sidebar-sticky">
-      <div class="sidebar-about">
-        <h1>{{ site.title }}</h1>
-        <p class="lead">{{ site.description }}</p>
-      </div>
-      <nav class="sidebar-nav">
-        {% for item in site.data.navigation %}
-          <a class="sidebar-nav-item" href="{{ item.link }}">{{ item.name }}</a>
-        {% endfor %}
-      </nav>
-      <div class="contact-info">
-        {% for contact in site.data.contacts %}
-          <div class="contact-item">
-            <span class="icon">{{ contact.icon }}</span>
-            <span>{{ contact.info }}</span>
-          </div>
-        {% endfor %}
-      </div>
-    </div>
-  </aside>
+<aside class="sidebar">  
+  <img src="/assets/images/profile.jpg" alt="Isaias Noya" class="profile-pic">  
+  <h1>{{ site.author.name }}</h1>  
+  <p>{{ site.author.occupation }}</p>  
+
+  <div class="contact">  
+    <h3>Contacto</h3>  
+    {% for item in site.data.contacts %}  
+      <p>{{ item.icon }} <a href="{{ item.url }}">{{ item.label }}</a></p>  
+    {% endfor %}  
+  </div>  
+</aside>  
