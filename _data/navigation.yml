@@ -1,4 +1,8 @@
-- name: Publicaciones
-  link: /publicaciones
-- name: CV
-  link: /cv
+- name: "Inicio"  
+  url: "/"  
+- name: "Estudios"  
+  url: "/studies/"  
+- name: "Pasatiempos"  
+  url: "/hobbies/"  
+- name: "Música"  
+  url: "/music/"  
