@@ -1,9 +1,19 @@
-title: Tu Nombre
-description: Profesión/Área de investigación
-theme: jekyll-theme-minimal
+titulo: "Isaias Noya | Estudiante de Ingeniería en Sistemas"  
+descripcion: "Tecnología, Música y Danza | UNIVALLE La Paz, Bolivia"  
+baseurl: ""  
+url: "https://github.com/Z32R09"  
+theme: minima  
 
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: "default"
+author:  
+  Nombre: "Isaias Humberto Noya Jurado"  
+  edad: 22  
+  Universidad: "Universidad Privada del Valle - Sede La Paz"  
+  Unidad Educativa: "Colegio Dora Schmidt 'A'"  
+  ocupacion: "Estudiante Universitario"  
+  hobbies: ["Videojuegos", "Danza", "Producción Musical", "DJ"]  
+
+defaults:  
+  - scope:  
+      path: ""  
+    values:  
+      layout: "default"  
