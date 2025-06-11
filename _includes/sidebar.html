@@ -1,0 +1,21 @@
+<aside class="sidebar">
+    <div class="container sidebar-sticky">
+      <div class="sidebar-about">
+        <h1>{{ site.title }}</h1>
+        <p class="lead">{{ site.description }}</p>
+      </div>
+      <nav class="sidebar-nav">
+        {% for item in site.data.navigation %}
+          <a class="sidebar-nav-item" href="{{ item.link }}">{{ item.name }}</a>
+        {% endfor %}
+      </nav>
+      <div class="contact-info">
+        {% for contact in site.data.contacts %}
+          <div class="contact-item">
+            <span class="icon">{{ contact.icon }}</span>
+            <span>{{ contact.info }}</span>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </aside>
